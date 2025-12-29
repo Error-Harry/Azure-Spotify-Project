@@ -321,15 +321,9 @@
 			{
 				"name": "Alert",
 				"type": "WebActivity",
-				"dependsOn": [
-					{
-						"activity": "data ingetion in loop",
-						"dependencyConditions": [
-							"Succeeded",
-							"Failed"
-						]
-					}
-				],
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
+				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
