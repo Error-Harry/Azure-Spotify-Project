@@ -1,0 +1,9 @@
+{
+	"name": "hna-azurespotifyproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dc645e0c-39dd-4d1b-8c4f-a6ca38638b21",
+		"tenantId": "c562633e-2a59-487c-88c9-03b1ee279943"
+	}
+}
