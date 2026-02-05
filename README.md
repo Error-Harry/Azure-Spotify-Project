@@ -36,7 +36,3 @@ Based on the project files:
 *   `pipeline/`: JSON definitions of the ingestion pipelines.
 *   `dataset/`: Definitions for source and sink data structures.
 *   `source_scripts/`: SQL scripts for setting up the initial database environment.
-
-***
-
-**Information not from the sources:** While the core technical details are from the sources, standard README formatting conventions (like the specific Markdown headers used) are based on general software development best practices. You should verify the exact file paths in your specific local repository before finalizing the "Repository Structure" section.
