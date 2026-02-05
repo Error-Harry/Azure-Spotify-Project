@@ -11,6 +11,21 @@ The pipeline follows a structured data journey:
 4.  **Final Model (Gold Layer):** Data is modelled into a **Star Schema** using **Delta Live Tables (DLT)**. This includes implementing **Slowly Changing Dimensions (SCD) Type 2** to maintain historical data integrity.
 5.  **Deployment:** The project utilizes **Databricks Asset Bundles (DABs)** for a modern CI/CD approach to deployment.
 
+### Azure Resource Group
+![Resource Group](images/Resource-Group-Till-Bronze-Layer.png)
+
+### Azure ADLS
+![Azure ADLS](images/ADLS-Bronze-Layer.png)
+
+### Azure Data Factory
+![Azure Data Factory](images/Spotify-Azure-Project-Bronze-Layer.png)
+
+### Logic App For Email Service
+![Logic App For Email Service](images/LogicAppForEmailService.png)
+
+### Databricks Pipeline
+![Databrics Pipeline](images/gold_pipeline-Databricks.png)
+
 
 ## Tech Stack
 *   **Cloud Provider:** Azure
